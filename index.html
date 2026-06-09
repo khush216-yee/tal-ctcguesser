@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guess the CTC — TAL</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════ SPLASH SCREEN ═══════════ -->
+  <div id="screen-splash" class="screen active">
+    <div class="splash-inner">
+      <div class="splash-eyebrow">TAL presents</div>
+      <h1 class="splash-title">Guess the<br /><em>CTC</em></h1>
+      <p class="splash-sub">You'll see a real candidate profile.<br />Guess what they were offered.</p>
+      <div class="splash-rules">
+        <div class="rule-item"><span class="rule-num">5</span><span class="rule-label">offers to guess</span></div>
+        <div class="rule-divider"></div>
+        <div class="rule-item"><span class="rule-num">1000</span><span class="rule-label">pts if spot on</span></div>
+        <div class="rule-divider"></div>
+        <div class="rule-item"><span class="rule-num">±5%</span><span class="rule-label">counts as perfect</span></div>
+      </div>
+      <button class="btn-primary" id="btn-start">Start guessing</button>
+      <div class="splash-footer">All offers are real. Identities are anonymised.</div>
+    </div>
+  </div>
+
+  <!-- ═══════════ GAME SCREEN ═══════════ -->
+  <div id="screen-game" class="screen">
+
+    <!-- Top bar -->
+    <header class="game-header">
+      <div class="header-left">
+        <span class="offer-counter" id="offer-counter">1 / 5</span>
+      </div>
+      <div class="header-center">
+        <div class="score-display">
+          <span class="score-value" id="live-score">0</span>
+          <span class="score-label">pts</span>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="progress-dots" id="progress-dots"></div>
+      </div>
+    </header>
+
+    <!-- Card area -->
+    <main class="card-area">
+      <div class="card-stack" id="card-stack">
+        <!-- Cards injected by JS -->
+      </div>
+
+      <!-- Card navigation -->
+      <div class="card-nav">
+        <button class="card-nav-btn" id="btn-prev" aria-label="Previous card">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <div class="card-pips" id="card-pips"></div>
+        <button class="card-nav-btn" id="btn-next" aria-label="Next card">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </div>
+    </main>
+
+    <!-- Slider zone — always pinned to bottom -->
+    <div class="slider-zone" id="slider-zone">
+      <div class="slider-prompt">What's their CTC?</div>
+      <div class="slider-value-display">
+        <span class="slider-currency">₹</span>
+        <span class="slider-number" id="slider-display">20</span>
+        <span class="slider-unit">LPA</span>
+      </div>
+      <div class="slider-track-wrap">
+        <span class="slider-edge-label">₹3L</span>
+        <input type="range" id="ctc-slider" min="3" max="100" step="0.5" value="20" class="ctc-slider" />
+        <span class="slider-edge-label">₹1Cr</span>
+      </div>
+      <button class="btn-primary btn-lock" id="btn-lock">Lock in my guess</button>
+    </div>
+
+  </div>
+
+  <!-- ═══════════ REVEAL SCREEN ═══════════ -->
+  <div id="screen-reveal" class="screen">
+    <div class="reveal-inner">
+      <div class="reveal-label" id="reveal-tier-label">Spot on!</div>
+
+      <div class="reveal-comparison">
+        <div class="reveal-col">
+          <div class="reveal-col-label">Your guess</div>
+          <div class="reveal-col-value guess-val" id="reveal-guess">—</div>
+        </div>
+        <div class="reveal-vs">vs</div>
+        <div class="reveal-col">
+          <div class="reveal-col-label">Actual CTC</div>
+          <div class="reveal-col-value actual-val" id="reveal-actual">—</div>
+        </div>
+      </div>
+
+      <div class="reveal-points-badge" id="reveal-points">+800 pts</div>
+
+      <div class="reveal-insight" id="reveal-insight"></div>
+
+      <button class="btn-primary btn-next-offer" id="btn-next-offer">Next offer →</button>
+    </div>
+  </div>
+
+  <!-- ═══════════ RESULTS SCREEN ═══════════ -->
+  <div id="screen-results" class="screen">
+    <div class="results-inner">
+      <div class="results-eyebrow">Game over</div>
+      <h2 class="results-title" id="results-title">—</h2>
+      <div class="results-score-big" id="results-score-big">—</div>
+
+      <div class="results-breakdown" id="results-breakdown">
+        <!-- Rows injected by JS -->
+      </div>
+
+      <div class="results-cta-block">
+        <div class="results-cta-copy">TAL matches you to roles that actually fit your market value.</div>
+        <a href="https://tal.so" class="btn-primary btn-tal" target="_blank">See your TAL profile →</a>
+      </div>
+
+      <button class="btn-ghost" id="btn-play-again">Play again</button>
+    </div>
+  </div>
+
+  <script src="assets/js/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "session": {
+    "offersPerGame": 5,
+    "currency": "₹",
+    "unit": "LPA"
+  },
+  "scoring": {
+    "maxPointsPerOffer": 1000,
+    "tiers": [
+      { "label": "Spot on", "withinPercent": 5,  "points": 1000, "color": "#2A9D8F" },
+      { "label": "Very close", "withinPercent": 10, "points": 800,  "color": "#57CC99" },
+      { "label": "Close",      "withinPercent": 20, "points": 500,  "color": "#F5A623" },
+      { "label": "Off",        "withinPercent": 35, "points": 200,  "color": "#E76F51" },
+      { "label": "Way off",    "withinPercent": 100,"points": 50,   "color": "#E63946" }
+    ]
+  },
+  "slider": {
+    "min": 3,
+    "max": 100,
+    "step": 0.5,
+    "defaultValue": 20
+  }
+}

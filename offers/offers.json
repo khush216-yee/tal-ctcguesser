@@ -1,0 +1,202 @@
+[
+  {
+    "id": "offer_001",
+    "actualCTC": 14,
+    "cards": [
+      { "label": "Role", "value": "Frontend Developer" },
+      { "label": "Company", "value": "Series B SaaS startup, ~120 employees, B2B HR tech" },
+      { "label": "Experience", "value": "2 years at a product startup, before that a bootcamp grad" },
+      { "label": "Location", "value": "Bangalore (hybrid, 3 days/week)" }
+    ]
+  },
+  {
+    "id": "offer_002",
+    "actualCTC": 38,
+    "cards": [
+      { "label": "Role", "value": "Senior Software Engineer — Backend" },
+      { "label": "Company", "value": "Publicly listed fintech, 2000+ employees, payments infra" },
+      { "label": "Experience", "value": "5 years total, 3 years at the same company, promoted once" },
+      { "label": "Location", "value": "Mumbai (full remote allowed)" }
+    ]
+  },
+  {
+    "id": "offer_003",
+    "actualCTC": 8,
+    "cards": [
+      { "label": "Role", "value": "QA Engineer" },
+      { "label": "Company", "value": "IT services firm, 10,000+ employees, mostly BFSI clients" },
+      { "label": "Experience", "value": "1.5 years, first job after engineering college" },
+      { "label": "Location", "value": "Pune (on-site)" }
+    ]
+  },
+  {
+    "id": "offer_004",
+    "actualCTC": 55,
+    "cards": [
+      { "label": "Role", "value": "Engineering Manager" },
+      { "label": "Company", "value": "Series D consumer app, 400 employees, 10M+ MAU" },
+      { "label": "Experience", "value": "8 years, managed a team of 6 for 2 years, ex-Flipkart" },
+      { "label": "Location", "value": "Bangalore (hybrid)" }
+    ]
+  },
+  {
+    "id": "offer_005",
+    "actualCTC": 22,
+    "cards": [
+      { "label": "Role", "value": "Data Analyst" },
+      { "label": "Company", "value": "Early-stage D2C brand, Series A, 60 employees" },
+      { "label": "Experience", "value": "3 years, moved from a consulting firm to product side" },
+      { "label": "Location", "value": "Delhi NCR (full remote)" }
+    ]
+  },
+  {
+    "id": "offer_006",
+    "actualCTC": 72,
+    "cards": [
+      { "label": "Role", "value": "Staff Engineer — Infrastructure" },
+      { "label": "Company", "value": "Unicorn startup, last valued at $1.4B, logistics tech" },
+      { "label": "Experience", "value": "10 years, led infra migration to Kubernetes, ex-Uber India" },
+      { "label": "Location", "value": "Bangalore (remote-first)" }
+    ]
+  },
+  {
+    "id": "offer_007",
+    "actualCTC": 18,
+    "cards": [
+      { "label": "Role", "value": "Android Developer" },
+      { "label": "Company", "value": "B2B SaaS, bootstrapped, 30 employees, field-force tools" },
+      { "label": "Experience", "value": "2.5 years, built 2 apps from scratch, no Play Store removal history" },
+      { "label": "Location", "value": "Hyderabad (on-site)" }
+    ]
+  },
+  {
+    "id": "offer_008",
+    "actualCTC": 44,
+    "cards": [
+      { "label": "Role", "value": "Product Engineer (Full Stack)" },
+      { "label": "Company", "value": "Series C insurtech, 180 employees, B2C health insurance" },
+      { "label": "Experience", "value": "6 years, worked across 3 early-stage startups, generalist" },
+      { "label": "Location", "value": "Bangalore (hybrid)" }
+    ]
+  },
+  {
+    "id": "offer_009",
+    "actualCTC": 11,
+    "cards": [
+      { "label": "Role", "value": "Junior Backend Developer" },
+      { "label": "Company", "value": "Mid-size e-commerce enablement company, 300 employees" },
+      { "label": "Experience", "value": "1 year, NIT grad, strong DSA but limited production exposure" },
+      { "label": "Location", "value": "Chennai (on-site)" }
+    ]
+  },
+  {
+    "id": "offer_010",
+    "actualCTC": 90,
+    "cards": [
+      { "label": "Role", "value": "Principal Engineer" },
+      { "label": "Company", "value": "Global SaaS company, India engineering hub, 5000+ employees" },
+      { "label": "Experience", "value": "12 years, authored 2 internal frameworks, patent holder" },
+      { "label": "Location", "value": "Hyderabad (hybrid)" }
+    ]
+  },
+  {
+    "id": "offer_011",
+    "actualCTC": 28,
+    "cards": [
+      { "label": "Role", "value": "ML Engineer" },
+      { "label": "Company", "value": "Series B AI startup, 80 employees, NLP focus" },
+      { "label": "Experience", "value": "4 years, MTech from IIT, first industry role after research" },
+      { "label": "Location", "value": "Bangalore (remote)" }
+    ]
+  },
+  {
+    "id": "offer_012",
+    "actualCTC": 16,
+    "cards": [
+      { "label": "Role", "value": "DevOps Engineer" },
+      { "label": "Company", "value": "IT services company, 500 employees, government projects" },
+      { "label": "Experience", "value": "2 years, handles CI/CD and cloud infra on AWS" },
+      { "label": "Location", "value": "Noida (on-site)" }
+    ]
+  },
+  {
+    "id": "offer_013",
+    "actualCTC": 62,
+    "cards": [
+      { "label": "Role", "value": "Tech Lead — Mobile" },
+      { "label": "Company", "value": "Well-funded edtech, Series D, 600 employees" },
+      { "label": "Experience", "value": "8 years, led a 5-person mobile team, app has 5M downloads" },
+      { "label": "Location", "value": "Bangalore (hybrid)" }
+    ]
+  },
+  {
+    "id": "offer_014",
+    "actualCTC": 7,
+    "cards": [
+      { "label": "Role", "value": "PHP Developer" },
+      { "label": "Company", "value": "Agency, 25 employees, client work for SMEs" },
+      { "label": "Experience", "value": "1 year, built and maintains 4 WordPress + custom PHP sites" },
+      { "label": "Location", "value": "Ahmedabad (on-site)" }
+    ]
+  },
+  {
+    "id": "offer_015",
+    "actualCTC": 34,
+    "cards": [
+      { "label": "Role", "value": "Security Engineer" },
+      { "label": "Company", "value": "Fintech startup, Series B, 150 employees, lending platform" },
+      { "label": "Experience", "value": "5 years, certified ethical hacker, previously at a bank's tech team" },
+      { "label": "Location", "value": "Mumbai (hybrid)" }
+    ]
+  },
+  {
+    "id": "offer_016",
+    "actualCTC": 48,
+    "cards": [
+      { "label": "Role", "value": "Senior Data Scientist" },
+      { "label": "Company", "value": "Listed FMCG company with an in-house tech team, 8000+ employees" },
+      { "label": "Experience", "value": "6 years, built pricing and demand-forecasting models in production" },
+      { "label": "Location", "value": "Mumbai (on-site)" }
+    ]
+  },
+  {
+    "id": "offer_017",
+    "actualCTC": 20,
+    "cards": [
+      { "label": "Role", "value": "React Native Developer" },
+      { "label": "Company", "value": "Healthcare SaaS, Series A, 50 employees, doctor-facing tools" },
+      { "label": "Experience", "value": "3 years, shipped 2 cross-platform apps, comfortable with native modules" },
+      { "label": "Location", "value": "Remote (India-based team)" }
+    ]
+  },
+  {
+    "id": "offer_018",
+    "actualCTC": 85,
+    "cards": [
+      { "label": "Role", "value": "VP of Engineering" },
+      { "label": "Company", "value": "Series C B2B SaaS, 250 employees, enterprise HR platform" },
+      { "label": "Experience", "value": "14 years, previously CTO at a startup that was acquired, now scaling a 30-person team" },
+      { "label": "Location", "value": "Bangalore (hybrid)" }
+    ]
+  },
+  {
+    "id": "offer_019",
+    "actualCTC": 25,
+    "cards": [
+      { "label": "Role", "value": "Backend Engineer — Python" },
+      { "label": "Company", "value": "Seed-stage climate tech startup, 20 employees" },
+      { "label": "Experience", "value": "4 years, took a 40% pay cut from previous job to join for equity" },
+      { "label": "Location", "value": "Remote" }
+    ]
+  },
+  {
+    "id": "offer_020",
+    "actualCTC": 42,
+    "cards": [
+      { "label": "Role", "value": "Solutions Architect" },
+      { "label": "Company", "value": "Cloud consulting firm, 800 employees, AWS Premier Partner" },
+      { "label": "Experience", "value": "7 years, certified AWS architect, travels 30% of the time for client engagements" },
+      { "label": "Location", "value": "Bangalore (hybrid)" }
+    ]
+  }
+]
